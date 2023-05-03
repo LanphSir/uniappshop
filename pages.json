@@ -1,0 +1,129 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+			{
+				"path": "pages/tabBar/index/index",
+				"style": {
+					"navigationBarTitleText": "uni商城"
+				}
+			},
+			{
+				"path" : "pages/category/index/category",
+				"style" :                                                                                    
+				{
+						"navigationBarTitleText": "商品分类",
+						"enablePullDownRefresh": false
+				}	
+			},
+			{
+				"path":"pages/tabBar/news/news",
+				"style":{
+					"navigationBarTitleText":"资讯"
+				}
+			},
+			{
+				"path":"pages/tabBar/cart/cart",
+				"style":{
+					"navigationBarTitleText":"购物车"
+				}
+			},
+			{
+				"path" : "pages/tabBar/member/member",
+				"style" :                                                                                    
+				{
+						"navigationBarTitleText": "会员"
+						// "enablePullDownRefresh": false
+				}
+					
+			},
+			{
+            "path" : "pages/category/seckill/seckill",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "秒杀拍",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+				{
+            "path" : "pages/category/maternal/maternal",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "母婴品",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+				{
+            "path" : "pages/category/supermarket/supermarket",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "超市购",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/info/newsinfo/newsinfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/info/goodsInfo/goodsInfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"selectedColor":"#b50e03",
+		"color":"#ccc",
+		"list":[
+			{
+				"text":"首页",
+				"pagePath":"pages/tabBar/index/index",
+				"iconPath":"static/icon/home.png",
+				"selectedIconPath":"static/icon/home-active.png"
+			},
+			{
+				"text":"资讯",
+				"pagePath":"pages/tabBar/news/news",
+				"iconPath":"static/icon/news.png",
+				"selectedIconPath":"static/icon/news-active.png"
+			},
+			{
+				"text":"购物车",
+				"pagePath":"pages/tabBar/cart/cart",
+				"iconPath":"static/icon/cart.png",
+				"selectedIconPath":"static/icon/cart-active.png"
+			},
+			{
+				"text":"会员",
+				"pagePath":"pages/tabBar/member/member",
+				"iconPath":"static/icon/member.png",
+				"selectedIconPath":"static/icon/member-active.png"
+			}
+		]
+	}
+}

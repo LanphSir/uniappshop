@@ -1,0 +1,1 @@
+<view><view class="goods-img"><image src="{{imgUrl}}" mode></image></view><view class="goods-text"><text>{{goodsText}}</text></view></view>

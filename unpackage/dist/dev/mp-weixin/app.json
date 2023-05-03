@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/tabBar/index/index",
+    "pages/category/index/category",
+    "pages/tabBar/news/news",
+    "pages/tabBar/cart/cart",
+    "pages/tabBar/member/member",
+    "pages/category/seckill/seckill",
+    "pages/category/maternal/maternal",
+    "pages/category/supermarket/supermarket",
+    "pages/info/newsinfo/newsinfo",
+    "pages/info/goodsInfo/goodsInfo"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#b50e03",
+    "color": "#ccc",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/tabBar/index/index",
+        "iconPath": "static/icon/home.png",
+        "selectedIconPath": "static/icon/home-active.png"
+      },
+      {
+        "text": "资讯",
+        "pagePath": "pages/tabBar/news/news",
+        "iconPath": "static/icon/news.png",
+        "selectedIconPath": "static/icon/news-active.png"
+      },
+      {
+        "text": "购物车",
+        "pagePath": "pages/tabBar/cart/cart",
+        "iconPath": "static/icon/cart.png",
+        "selectedIconPath": "static/icon/cart-active.png"
+      },
+      {
+        "text": "会员",
+        "pagePath": "pages/tabBar/member/member",
+        "iconPath": "static/icon/member.png",
+        "selectedIconPath": "static/icon/member-active.png"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {}
+}
